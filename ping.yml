@@ -1,0 +1,9 @@
+---
+- name: Ping Test by Ansible Controller
+  hosts: all
+  tasks:
+    - name: Ping all Servers
+      ping:
+
+
+
